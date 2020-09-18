@@ -21,14 +21,18 @@ class SplashScreen : AppCompatActivity() {
     // Runnable instance: task to execute on the main thread
     private val mRunnable: Runnable = Runnable {
 
-        // Intent linked to HomePage activity
-        val homeIntent = Intent(this, HomePage::class.java)
+        // Originally: Intent linked to HomePage activity
+        // val homeIntent = Intent(this, HomePage::class.java)
+        // Now: Intent linked to LoginPage activity
+        val loginIntent = Intent(this, LoginPage::class.java)
 
         // Terminate current Activity
         finish()
 
-        // Start-up HomePage Activity
-        startActivity(homeIntent)
+        // Originally: Start-up HomePage Activity
+        //startActivity(homeIntent)
+        // Now: Start-up LoginPage Activity
+        startActivity(loginIntent)
 
     }
 

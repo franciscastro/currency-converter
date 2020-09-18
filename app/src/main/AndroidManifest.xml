@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".LoginPage"></activity>
-        <!-- Added for this project -->
+        <activity android:name=".SignUpPage"></activity>
+        <activity android:name=".LoginPage" /> <!-- Added for this project -->
         <activity android:name=".NavigationPane" /> <!-- Added for this project -->
         <activity android:name=".HelpPage" />
         <activity android:name=".MarketStatusPage" />

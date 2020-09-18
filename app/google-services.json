@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "98059113431",
+    "firebase_url": "https://currency-converter-b1a7f.firebaseio.com",
+    "project_id": "currency-converter-b1a7f",
+    "storage_bucket": "currency-converter-b1a7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98059113431:android:1f24380d8d6e1fbe1e7192",
+        "android_client_info": {
+          "package_name": "com.skillsoft.currencyconverter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98059113431-usd11qpapkj1tr06gvrvftdk0s3muavd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skillsoft.currencyconverter",
+            "certificate_hash": "258a87f5f76be60c0089a9f234e1b18cb514ab3b"
+          }
+        },
+        {
+          "client_id": "98059113431-g512g783dhv11ahn9r1h00it4hudj439.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7tmI42pmSHP0hdtKK5rUrewF3EpGeDPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98059113431-g512g783dhv11ahn9r1h00it4hudj439.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

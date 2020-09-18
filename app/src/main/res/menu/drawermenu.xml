@@ -4,5 +4,5 @@
     <item android:id="@+id/market_status" android:title="@string/market_status"/>
     <item android:id="@+id/help" android:title="@string/help"/>
     <item android:id="@+id/contact" android:title="@string/contact_us"/>
-
+    <item android:id="@+id/logout" android:title="@string/log_out"/>
 </menu>
