@@ -18,7 +18,7 @@ class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
         // Context of the app under test.
-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+        val appContext = InstrumentationRegistry.getInstrumentation().targetContext  // Uses an instance of the InstrumentationRegistry to retrieve the context regarding the target application
         assertEquals("com.skillsoft.currencyconverter", appContext.packageName)
     }
 }
